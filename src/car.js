@@ -33,7 +33,7 @@ this.passengers =['john']
 Car.prototype.dropOff = function(state){
 this.passengers = '';
 if (this.state === 'off'){
-  this.passengers = ['john']}
+  this.passengers = ['john']
 };
 }
 module.exports=Car;
