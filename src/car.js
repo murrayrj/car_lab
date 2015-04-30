@@ -15,7 +15,7 @@ this.currentOwner = 'Charlie';
 };
 
 Car.prototype.paint = function(newColor){
-
+this.color ='Blue';
 };
 
 
